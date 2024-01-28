@@ -82,7 +82,8 @@ catch {
             String dbURL = "jdbc:mysql://localhost:3306/name_of_your_database";
 
             // make Connection:
-            Connection dbConnection = DriverManager.getConnection(dbURL, "root", ""); // By default when you install mySQL your name will be root and you will have no password, in the future consider to add a password and a name for more security.
+            Connection dbConnection = DriverManager.getConnection(dbURL, "root", "");
+            // By default when you install mySQL your name will be root and you will have no password, in the future consider to add a password and a name for more security.
 
             // allow SQL to execute using "sqlStatemnt" and "dbConnection":
             sqlStatement = dbConnection.createStatement();
