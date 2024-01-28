@@ -83,7 +83,8 @@ catch {
 
             // make Connection:
             Connection dbConnection = DriverManager.getConnection(dbURL, "root", "");
-            // By default when you install mySQL your name will be root and you will have no password, in the future consider to add a password and a name for more security.
+            // By default when you install mySQL your name will be root and you will have no password,
+            // in the future consider to add a password and a name for more security.
 
             // allow SQL to execute using "sqlStatemnt" and "dbConnection":
             sqlStatement = dbConnection.createStatement();
