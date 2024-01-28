@@ -8,7 +8,6 @@ public class App {
 
         Statement sqlStatement; // runs SQL.
 
-        String useSQL = new String("use colegiu"); // command to use "colegiu" database.
         String output;
         ResultSet result; // holds the result from the SQL.
         String selectAll = "select * from Student";
